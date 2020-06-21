@@ -2,13 +2,12 @@ import { Component } from "@angular/core";
 import { PopoverController } from "@ionic/angular";
 
 @Component({
-  selector: "app-tab2",
-  templateUrl: "tab2.page.html",
-  styleUrls: ["tab2.page.scss"]
+  selector: "app-tab2a",
+  templateUrl: "tab2a.page.html",
+  styleUrls: ["tab2a.page.scss"]
 })
-export class Tab2Page {
+export class Tab2aPage {
   
-
   constructor(private popoverCtrl: PopoverController) {}
 
   async apiRequest() {

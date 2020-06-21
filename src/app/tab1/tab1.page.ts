@@ -13,7 +13,7 @@ export class Tab1Page {
 
   async presentPopover(ev: any) {
     const popover = await this.popoverController.create({
-      component: Tab2Page,
+      component: Tab2aPage,
       event: ev,
       popoverController: this.popoverController,
       backdropDismiss: true
